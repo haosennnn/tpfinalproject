@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stytle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+		/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav-menu" id="nav-menu">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#introduction" class="nav-link">
+            <span class="nav-link1">Introduction</span>
+            <span class="nav-link2">Introduction</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#project" class="nav-link">
+            <span class="nav-link1">Functions</span>
+            <span class="nav-link2">Functions</span>
+          </a>
+          <div class="dropdown-content">
+            <a href="#project">Display Restraunrants</a>
+            <a href="#filter">Filter</a>
+            <a href="#menu">About Menu</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#comments">Comments</a>
+            <a href="#add">Add Comments</a>
+            <a href="#edit">Edit Comments</a>
+            <a href="#delete">Delete Comments</a>
+            <a href="#details">Restaurant Details</a>
+            <a href="#register">Register</a>
+            <a href="#login">Login</a>
+            <a href="#success">Success</a>
+            <a href="#profile">Display Profile</a>
+            <a href="#audit">Edit Profile</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#reflection" class="nav-link">
+            <span class="nav-link1">Reflection</span>
+            <span class="nav-link2">Reflection</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <section class="introduction" id="introduction">
+      <p>Temasek Polytechnic Final Project</p>
+      <p>
+        In this project, we touched on HTML, CSS, JS, MYSQL and NODE.JS to pull
+        together a restaurant review website
+      </p>
+    </section>
+
+    <!-- PROJECT SECTION ========================================= -->
+    <section class="section project" id="project">
+      <div class="container project-container">
+        <p class="section-title">My Featured Functions</p>
+        <div class="project-wrap">
+          <!-- Project 1===== -->
+          <div class="project-list p-1">
+            <div class="project-content-wrap">
+              <div class="project-media" id="filter">
+                <img src="/images/display1.png" alt="" />
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  The main page shows the various restraunts that was saved in
+                  our database in MySQL.
+                </p>
+                <div class="project-btn-container">
+                  <p>Displaying of restraunrants</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2===== -->
+          <div class="project-list p-2" id="menu">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <a href="#">
+                  <div class="project-img">
+                    <img src="/images/display2.png" alt="" />
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  The navigation bar acts as a form of filter, showing the
+                  restraunts according to the cuisine they belong.
+                </p>
+                <div class="project-btn-container">
+                  <p>Filter</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3===== -->
+          <div class="project-list p-3" id="contact">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <img src="/images/About.png" alt="" />
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  This acts as a drop down modal displaying the purpose of this
+                  website without taking too much space
+                </p>
+                <div class="project-btn-container">
+                  <p>About Menu</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 4===== -->
+          <div class="project-list p-2" id="comments">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <a href="#">
+                  <div class="project-img">
+                    <img src="/images/ContactUs.png" alt="" />
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  The last section to our navigation bar allows users to send
+                  feedbacks on the website or anything else that they want to
+                  convey.
+                </p>
+                <div class="project-btn-container">
+                  <p>Contact Us</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 5===== -->
+          <div class="project-list p-3" id="add">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <a href="#">
+                  <div class="project-img">
+                    <img src="/images/Comments.png" alt="" />
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  On each website, by pressing on the comment logo, one can
+                  access the comments of each restaurant.
+                </p>
+                <div class="project-btn-container">
+                  <p>Comments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6===== -->
+          <div class="project-list p-2" id="edit">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <div class="slideshow-container">
+                  <div class="mySlides1">
+                    <img src="images/Comments.png" style="width: 100%" />
+                  </div>
+
+                  <div class="mySlides1">
+                    <img src="images/AddComments.png" style="width: 100%" />
+                  </div>
+
+                  <div class="mySlides1">
+                    <img src="images/Comments+.png" style="width: 100%" />
+                  </div>
+
+                  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  By clicking the "New Comment" button on the top right hand of
+                  the modal, it will being you to the new comment modal that
+                  takes your inout and display the comment.
+                </p>
+                <div class="project-btn-container">
+                  <p>Add Comments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 7===== -->
+          <div class="project-list p-3" id="delete">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <div class="slideshow-container">
+                  <div class="mySlides2">
+                    <img src="images/Comments+.png" style="width: 100%" />
+                  </div>
+
+                  <div class="mySlides2">
+                    <img src="images/EditComments.png" style="width: 100%" />
+                  </div>
+
+                  <div class="mySlides2">
+                    <img src="images/Comments++.png" style="width: 100%" />
+                  </div>
+
+                  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+                <br />
+
+                <div style="text-align: center">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  One could edit the comments by clicking the edit symbol on the
+                  top right of the review box. Once again, it acepets inputs to
+                  update the comment.
+                </p>
+                <div class="project-btn-container">
+                  <p>Edit Comments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 8===== -->
+          <div class="project-list p-2" id="details">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <a href="#">
+                  <div class="project-img">
+                    <img src="/images/DeleteCheck.png" alt="" />
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  Upon clicking the trash icon, the website will prompt you and
+                  confirm the deletion of that comment.
+                </p>
+                <div class="project-btn-container">
+                  <p>Delete Comments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 9===== -->
+          <div class="project-list p-3" id="register">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <a href="#">
+                  <div class="project-img">
+                    <img src="images/Restaurant.png" alt="" />
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  If you try clicking the names of the restraunts, the details
+                  of the respective restraunrant will be displayed. All buttons
+                  present within the "details" are connected to links that can
+                  be further explored.
+                </p>
+                <div class="project-btn-container">
+                  <p>Restaurant Details</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 10===== -->
+          <div class="project-list p-2" id="login">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <a href="#">
+                  <div class="project-img">
+                    <img src="/images/Register.png" alt="" />
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  The user can enter a username and a password for each
+                  respective blanks to register an account.
+                </p>
+                <div class="project-btn-container">
+                  <p>Register</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 11===== -->
+          <div class="project-list p-3" id="success">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <a href="#">
+                  <div class="project-img">
+                    <img src="/images/Login.png" alt="" />
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  With the info of the registered account, one can then login
+                  into the website using the registered account details.
+                </p>
+                <div class="project-btn-container">
+                  <p>Login</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 12===== -->
+          <div class="project-list p-2" id="profile">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <a href="#">
+                  <div class="project-img">
+                    <img src="/images/Success.png" alt="" />
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  For each register and login, if the credentials matches the
+                  input it will display a success modal.
+                </p>
+                <div class="project-btn-container">
+                  <p>Success</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 13===== -->
+          <div class="project-list p-3" id="audit">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <a href="#">
+                  <div class="project-img">
+                    <img src="/images/Profile.png" alt="" />
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  Once a user is logged in, there would then be a "Profile"
+                  button on the extreme right of the navigation bar. Clicking on
+                  it will display the user profile.
+                </p>
+                <div class="project-btn-container">
+                  <p>Display profile</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 14===== -->
+          <div class="project-list p-2">
+            <div class="project-content-wrap">
+              <div class="project-media">
+                <div class="slideshow-container">
+                  <div class="mySlides3">
+                    <img src="images/Profile.png" style="width: 100%" />
+                  </div>
+
+                  <div class="mySlides3">
+                    <img src="images/ImageSuccess.png" style="width: 100%" />
+                  </div>
+
+                  <div class="mySlides3">
+                    <img src="images/AddImage.png" style="width: 100%" />
+                  </div>
+
+                  <a class="prev" onclick="plusSlides1(-1, 0)">&#10094;</a>
+                  <a class="next" onclick="plusSlides1(1, 0)">&#10095;</a>
+                </div>
+                <br />
+
+                <div style="text-align: center">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <!-- <h3>Black Looser Gelly</h3> -->
+                <p>
+                  Wihtin the profile, one can change the telephone number and
+                  his profile picture. He can change the profile by either
+                  dropping the image file into the box or choose a file through
+                  the button.
+                </p>
+                <div class="project-btn-container">
+                  <p>Auditable Profile</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RELECTION SECTION -->
+    <section class="reflection" id="reflection">
+      <p>My Reflection</p>
+      <div class="reflection-para">
+        <p>
+          I was introduced to coding languages such as HTML, CSS, JS, MYSQL and
+          NODE.JS and other applications like postman. <br />
+          Together with the well paced class, I was able to dip my feet into
+          these topics without experiencing the overwheling sense of
+          intimidation. <br />
+          The basics were handed to us and that was all we needed to execute
+          more advanced functions and becuase of that,<br />
+          I beleive I have the capabilities to start on a minature project of my
+          own in my free time. Which in my opinion is very rewarding.
+        </p>
+        <p>
+          What I love most is CSS. Its a coding language that allows one to
+          express thier creativity on a website. One could build a website <br> and
+          design it in a way that truly fits his or her style. That freedom
+          is whats so great about css!
+        </p>
+		<p>overall, the experience was relatively positve and would rate it 10/10!</p>
+      </div>
+    </section>
+	<footer>
+		<p>end</p>
+	</footer>
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="bx bx-sort-z-a scrollup-icon"></i>
+  </a>
+
+  </body>
+  <script src="main.js"></script>
+</html>
