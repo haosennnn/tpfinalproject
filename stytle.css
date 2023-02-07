@@ -60,6 +60,7 @@
   display: block;
 }
 .introduction {
+font-size:12;
   color: white;
   max-width: 80%;
   display: flex;
@@ -242,6 +243,7 @@ img {vertical-align: middle;}
 }
 .reflection-para {
   padding: 2vh;
+	font-size: 12;
 }
 .reflection-para p{
   display: flex;
